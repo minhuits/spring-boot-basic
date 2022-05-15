@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="21.13870939698154" y="60.26911721562237">com.company.ioc.Encoder</node>
+    <node x="400.1079103862496" y="-174.14819220631492">com.company.ioc.UrlEncoder</node>
+    <node x="720.3079839906616" y="95.2838087558835">com.company.ioc.Base64Encoder</node>
+    <node x="720.3079839906616" y="-227.14819220631492">com.company.ioc.ApplicationContextProvider</node>
+    <node x="401.1079103862496" y="-386.4865198151691">com.company.ioc.BasicApplication</node>
+    <node x="401.21052839630454" y="108.7838087558835">com.company.ioc.IEncoder</node>
+    <node x="-7.883024343583429" y="-200.14819220631492">com.company.ioc.AppConfig</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.ioc.AppConfig" target="com.company.ioc.Encoder" relationship="CREATE">
+      <point x="-7.295835349362932" y="60.608252406073206" />
+      <point x="134.32114030705364" y="-25.440542957025187" />
+      <point x="134.63870939698154" y="-25.440542957025187" />
+      <point x="0.0" y="-58.5" />
+    </edge>
+    <edge source="com.company.ioc.UrlEncoder" target="com.company.ioc.IEncoder" relationship="REALIZATION">
+      <point x="4.394480998342601" y="46.57669478276918" />
+      <point x="518.0023913845922" y="109.44202968996893" />
+      <point x="584.9328809557101" y="109.44202968996893" />
+      <point x="584.9328809557101" y="117.23397118441318" />
+      <point x="548.6020256949632" y="117.23397118441318" />
+      <point x="548.6020256949632" y="115.36268281240359" />
+      <point x="66.02713779743613" y="-24.92112594347992" />
+    </edge>
+    <edge source="com.company.ioc.Base64Encoder" target="com.company.ioc.IEncoder" relationship="REALIZATION">
+      <point x="-113.49954372962685" y="-3.119253527223975E-4" />
+      <point x="692.5656934306571" y="140.2834968305308" />
+      <point x="692.5656934306571" y="140.28381380735493" />
+      <point x="113.50006702486024" y="5.051471426043008E-6" />
+    </edge>
+    <edge source="com.company.ioc.Encoder" target="com.company.ioc.IEncoder" relationship="TO_ONE">
+      <point x="113.5" y="21.514691540261126" />
+      <point x="-113.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.9313213424694629" showDependencies="true" x="459.17781173124524" y="-89.10438464242418" />
+  <SelectedNodes>
+    <node>com.company.ioc.ApplicationContextProvider</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
