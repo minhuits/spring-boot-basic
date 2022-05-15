@@ -1,5 +1,6 @@
-package com.company.ioc;
+package com.company.basic.ioc;
 
+import com.company.basic.ioc.IEncoder;
 import org.springframework.stereotype.Component;
 
 import java.util.Base64;

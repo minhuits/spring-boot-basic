@@ -1,4 +1,4 @@
-package com.company.ioc;
+package com.company.basic.ioc;
 
 public class Encoder {
 
