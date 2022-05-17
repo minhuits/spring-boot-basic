@@ -6,7 +6,7 @@ import com.company.basic.aop.dto.User;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/aop")
 public class RestApiController {
 
     @GetMapping("get/{id}")
