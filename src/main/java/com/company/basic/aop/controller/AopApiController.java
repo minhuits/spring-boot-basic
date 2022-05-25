@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/aop")
-public class RestApiController {
+public class AopApiController {
 
     @GetMapping("get/{id}")
     public String get(@PathVariable Long id, @RequestParam String name) {
