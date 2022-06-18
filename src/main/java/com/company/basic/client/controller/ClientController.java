@@ -1,5 +1,6 @@
 package com.company.basic.client.controller;
 
+import com.company.basic.client.dto.Request;
 import com.company.basic.client.dto.UserResponse;
 import com.company.basic.client.service.RestTemplateService;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,9 +18,9 @@ public class ClientController {
     }
 
     @GetMapping("/hello")
-    public UserResponse getHello() {
+    public Request<UserResponse> getHello() {
 //        return restTemplateService.post();
-        restTemplateService.post();
-        return new UserResponse();
+        return restTemplateService.genericExchange();
+//        return new UserResponse();
     }
 }
